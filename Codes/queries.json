@@ -1,0 +1,22 @@
+{
+  "audio_quality": {
+    "aspect": ["audio", "quality"],
+    "opinion": ["poor"]
+  },
+  "wifi_signal": {
+    "aspect": ["wifi", "signal"],
+    "opinion": ["strong"]
+  },
+  "mouse_button": {
+    "aspect": ["mouse", "button"],
+    "opinion": ["click", "problem"]
+  },
+  "gps_map": {
+    "aspect": ["gps", "map"],
+    "opinion": ["useful"]
+  },
+  "image_quality": {
+    "aspect": ["image", "quality"],
+    "opinion": ["sharp"]
+  }
+}

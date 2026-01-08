@@ -8,9 +8,9 @@ This project implements an opinion-oriented search engine for Amazon product rev
 ```
 amazon_search_engine/
 ├── Codes/
-│   ├── baseline.py            # Boolean search implementation (Tests 1-3)
-│   ├── advanced1.py           # First advanced method
-│   ├── advanced2.py           # Second advanced method
+│   ├── baseline_boolean.py            # Boolean search implementation (Tests 1-3)
+│   ├── advanced_language_model.py           # First advanced method
+│   ├── advanced_SBERT.py           # Second advanced method
 │   ├── inverted_index.py      # Inverted index builder/handler
 │   └── queries.json           # Query definitions for testing
 ├── Data/

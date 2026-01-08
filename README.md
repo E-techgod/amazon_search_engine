@@ -30,9 +30,13 @@ amazon_search_engine/
 ├── requirements.txt           # Python dependencies
 └── Readme.md                  # This file
 ```
-### Data folder
-*The large `reviews_segment.pkl` and `data.pkl` files are not included.*
-*Place them under `Data/` before running the scripts.*
+### 📁 Data Folder
+The large `reviews_segment.pkl` and `data.pkl` files are **not included** in this repository due to their size.
+To run the full pipeline, place these files inside the `Data/` directory before executing the scripts.
+Data/
+├── data.pkl
+├── reviews_segment.pkl
+
 
 ### Python Dependencies
 See `requirements.txt` for complete list. Key dependencies include:

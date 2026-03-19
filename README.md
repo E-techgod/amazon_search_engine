@@ -137,10 +137,16 @@ All queries are defined in `queries.json`.
 
 ## 📊 Results
 
-| Method | Average Precision | Documents Retrieved |
-|--------|-------------------|---------------------|
-| Boolean Baseline | 0.39 | ~100% of corpus |
-| Advanced SBERT (Ours) | **0.58** | **~17% of corpus** |
+### Method Performance Comparison
+
+| Method | Avg Precision | Avg Retrieved | Precision Improvement |
+|--------|--------------|---------------|----------------------|
+| Baseline (Boolean) | 0.3914 | 1,278 | — |
+| Advanced Method 1 (LM) | 0.5503 | 582 | +40.6% |
+| **Advanced Method 2 (SBERT)** | **0.578** | **216** | **+47.7%** |
+
+83% reduction in retrieved documents while improving precision — 
+evaluated across 5 real-world opinion queries on 210,000+ Amazon reviews.
 
 **Key outcomes:**
 - 48% relative improvement in Average Precision (0.39 → 0.58)

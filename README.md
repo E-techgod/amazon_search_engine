@@ -134,7 +134,18 @@ All queries are defined in `queries.json`.
 
 - Dataset: Amazon Review Dataset (Course provided)
 - Opinion Lexicon: Hu and Liu (KDD 2004)
-- data.pkl: Courtesy of Navid Ayoobi
+
+## 📊 Results
+
+| Method | Average Precision | Documents Retrieved |
+|--------|-------------------|---------------------|
+| Boolean Baseline | 0.39 | ~100% of corpus |
+| Advanced SBERT (Ours) | **0.58** | **~17% of corpus** |
+
+**Key outcomes:**
+- 48% relative improvement in Average Precision (0.39 → 0.58)
+- 83% reduction in retrieved documents while maintaining relevance
+- Evaluated across 5 real-world opinion queries on 210,000+ Amazon reviews
 
 ## Me 
 Elias Arellano Campos  

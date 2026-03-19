@@ -1,7 +1,7 @@
 # Amazon Review Opinion Search Engine
 
 ## Project Overview
-This project implements an opinion-oriented search engine for Amazon product reviews.
+Semantic opinion search engine for Amazon reviews — 48% MAP improvement using SBERT over Boolean baseline. 210K+ reviews
 
 ## Project Structure
 
